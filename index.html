@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>진행 상황 확인</title>
+  <style>
+    body {
+      font-family: 'Pretendard', sans-serif;
+      background-color: #f0f2f5;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+    .task {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+      padding: 20px 25px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #222;
+    }
+    .progress-bar {
+      background: #e0e0e0;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 18px;
+    }
+    .progress {
+      height: 100%;
+      background: #4caf50;
+      text-align: right;
+      color: white;
+      font-size: 13px;
+      line-height: 18px;
+      padding-right: 5px;
+    }
+    .status {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>연주 시험자료 실시간 진행 상황</h1>
+
+  <div class="task">
+    <div class="title">한국사능력검정 1급 - 전근대사</div>
+    <div class="progress-bar"><div class="progress" style="width: 95%;">95%</div></div>
+    <div class="status">기출 분석 정리 마무리 중 - 곧 마크다운 제공</div>
+  </div>
+
+  <div class="task">
+    <div class="title">한국사능력검정 1급 - 근현대사 리뉴얼</div>
+    <div class="progress-bar"><div class="progress" style="width: 45%;">45%</div></div>
+    <div class="status">전한길/최태성 스타일로 재정리 중</div>
+  </div>
+
+  <div class="task">
+    <div class="title">계리직 공무원 자료</div>
+    <div class="progress-bar"><div class="progress" style="width: 10%;">10%</div></div>
+    <div class="status">과목별 구성 중 - 마크다운 정리 예정</div>
+  </div>
+
+  <div class="task">
+    <div class="title">사회복지사 1급 자료</div>
+    <div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div>
+    <div class="status">진행 예정 - 전체 8과목 정리 예정</div>
+  </div>
+
+</body>
+</html>
